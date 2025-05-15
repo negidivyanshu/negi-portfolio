@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Typinganimation from './typing';
+import Navbar from './navbar';
+import About from './about';
+import Skills from './skills';
+import Projects from './projects';
+import Experience from './experience';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Typinganimation />
+      <About />
+      <Experience />
+      <Skills />
+      <Projects />  
+      <footer className="copyright text-center">
+        <p>© 2025 Divyanshu Negi. All rights reserved.</p>
+      </footer>
     </div>
   );
 }

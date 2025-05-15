@@ -1,13 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General Styles */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #191E29 !important;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+section {
+  max-width: 1000px !important;
+  margin: 70px auto;
+  padding: 25px; 
+}
+
+i {
+  margin: 10px;
+}
+
+h4, h3, h5, h6, p {
+  color: #ADB5BD !important;
+  opacity: 80% !important;
+}
+
+span {
+  color: #01C38D;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #191E29;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px !important;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.navbar-nav {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 30px;
+  list-style: none;
+}
+
+.navbar-nav a {
+  color: #ADB5BD;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.navbar-nav a:hover {
+  color: #01C38D;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.social-icons a:hover {
+  color: #01C38D;
+}
+
+/* Typing Animation */
+.typing-animation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+  gap: 25px;
+  justify-content: center;
+  height: 100vh;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ADB5BD;
+  transition: all 0.3s ease-in-out;
+}
+.about-paragraph h5 {
+  font-size: 1.2rem; /* Default size for larger screens */
+  margin-bottom: 25px;
+}
+
+/* About Section */
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #191E29;
+  gap: 20px;
+}
+
+.header {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+.header2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+ p {
+  font-size: 1.1rem;
+  color: #ADB5BD;
+  line-height: 1.8;
+  margin: 35px 0;
+  /* max-width: 80%; */
+}
+
+.green-btn {
+  padding: 5px;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  background-color: #01C38D;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.green-btn:hover {
+  background-color: #019e6f;
+  border-color: #01C38D;
+}
+
+.about-logo {
+  height:18rem;
+  width:18rem;
+  object-fit: contain;
+  border-start-start-radius: 50%;
+}
+
+.skills-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #ADB5BD;
+}
+
+.skill i {
+  font-size: 10rem;
+  margin-bottom: 10px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #242a38;
+  border-radius: 30px;
+  width: 300px;
+  text-align: start;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card h2 {
+  font-size: 1.5rem;
+  color: #01C38D;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 1rem;
+  cursor: default;
+  margin-bottom: 16px;
+}
+
+.project-card-header {
+  display: flex;
+  cursor: default;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.project-card-header h2 {
+  flex: 1;
+  font-size: 1.3rem;
+  margin: 0 10px;
+  text-align: left;
+}
+
+.github-link {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  transition: color 0.2s;
+}
+
+.github-link:hover {
+  color: #01C38D;
+}
+.project-card-header .fa-folder{
+  font-size: 20px ;
+}
+
+footer p{
+font-size: smaller;
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+  .navbar-nav {
+    display: none !important;
+  }
+
+  p{
+    font-size: 15px;
+  }
+  .social-icons {
+    margin-left: auto;
+  }
+  .header{
+    font-size: 1.8rem;
+  }
+  .header2{
+    font-size: 1.5rem;
+  }
+
+  #about {
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .typing-animation {
+    font-size: 2.5rem; /* Reduce font size for smaller screens */
+  }
+
+  #about-paragraph h5 {
+    font-size: 1rem; /* Adjust paragraph font size */
+  }
+  #about img{
+    display: none;
+  }
+  .skill i {
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+section {
+  margin: 25px auto; 
+}
+.green-btn {
+  font-size: 1rem;
+}
+
 }

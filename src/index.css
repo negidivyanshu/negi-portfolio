@@ -81,15 +81,8 @@ span {
   gap: 25px;
   justify-content: center;
   height: 100vh;
-  font-size: 5rem;
-  font-weight: bold;
   text-align: center;
   color: #ADB5BD;
-  transition: all 0.3s ease-in-out;
-}
-.about-paragraph h5 {
-  font-size: 1.2rem; /* Default size for larger screens */
-  margin-bottom: 25px;
 }
 
 /* About Section */
@@ -99,6 +92,12 @@ span {
   justify-content: center;
   background-color: #191E29;
   gap: 20px;
+}
+
+.greeting-header{
+    font-size: 4rem;
+  color: #FFFFFF;
+  margin-bottom: 30px;
 }
 
 .header {
@@ -249,6 +248,9 @@ font-size: smaller;
   .social-icons {
     margin-left: auto;
   }
+  .greeting-header{
+    font-size: 2.5rem;
+}
   .header{
     font-size: 1.8rem;
   }
@@ -261,7 +263,7 @@ font-size: smaller;
     margin: auto;
   }
   .typing-animation {
-    font-size: 2.5rem; /* Reduce font size for smaller screens */
+   padding: 20px;
   }
 
   #about-paragraph h5 {

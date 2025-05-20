@@ -1,5 +1,5 @@
 import React from "react";
-
+import company from './salesqueen-company-logo.png'
 import './index.css'
 
 const Experience = () => {
@@ -7,7 +7,16 @@ const Experience = () => {
     <section id="experience">
       <h1 className="header">&lt;experience&gt;</h1>
   <div className="text-start">
-    <h3 className="mb-4"> <span>Salesqueen Software Solutions</span>  </h3>
+<div className="d-flex flex-wrap align-items-center">
+  <div className="flex-grow-1">
+    <h3 className="mb-4">
+      <span>Salesqueen Software Solutions</span>
+    </h3>
+  </div>
+  <div>
+    <img src={company} alt="Personal Logo" className="company-logo mb-4" />
+  </div>
+</div>
     <h4>Front-end Developer Intern</h4>
     <p>| Jun 2023 – Sep 2023 (Remote) </p>
     <p>

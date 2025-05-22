@@ -46,10 +46,12 @@ const Typinganimation = () => {
           <p className="about-text">
             I'm <span className="highlight">Divyanshu</span>, a passionate Software Developer who loves turning ideas into reality through code. With a knack for creativity and problem-solving, I specialize in crafting intuitive and visually engaging web experiences using JavaScript, React, and Node.js.
           </p>
-          <button className="green-btn">
-            say Hi
-            <i className="fas fa-envelope" aria-hidden="true"></i>
-          </button>
+          <button
+  className="green-btn"
+  onClick={() => window.location = "mailto:negidivyanshu9656@gmail.com"}
+>
+  say hi <i className="fas fa-envelope"></i>
+</button>
         </div>
       </div>
     </section>

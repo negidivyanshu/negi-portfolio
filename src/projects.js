@@ -10,7 +10,7 @@ const projects = [
   {
     title: "Weather App",
     description: "A weather forecast app using OpenWeatherMap API and React.",
-    repo: "https://github.com/negidivyanshu/weather-app.git"
+    repo: "https://weather-app-xi-steel-70.vercel.app/"
   },
   {
     title: "Travel Agency",

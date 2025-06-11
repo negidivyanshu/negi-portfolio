@@ -8,24 +8,24 @@ const projects = [
     repo: "https://github.com/negidivyanshu/negi-portfolio.git"
   },
   {
-    title: "Weather App",
-    description: "A weather forecast app using OpenWeatherMap API and React.",
-    repo: "https://github.com/negidivyanshu/weather-app.git"
+    title: "Blog it",
+    description: "Dynamic blogging platform with post creation, editing, and deletion. Data persistence via localStorage and clean, modular JavaScript structure.",
+    repo: "https://negidivyanshu.github.io/Blog-App/"
   },
   {
-    title: "Travel Agency",
-    description: "A quick travel agency website made for a client, with features such as payment gateway, blogs fetching etc.",
-    repo: "https://github.com/yourusername/task-manager"
+    title: "Bharat Bhramann",
+    description: "A travel agency website made for a client, with features such as payment gateway, blogs fetching etc.",
+    repo: "https://www.bharatbhramann.com/"
   },
   {
     title: "Voting Platform",
     description: "An online voting platform with secure authentication, real-time vote updates, and admin dashboard for managing polls and results.",
-    repo: "https://github.com/yourusername/voting-platform"
+    repo: "https://negidivyanshu.github.io/voting-platform"
   },
-  {
-    title: "Notes App",
-    description: "A notes application built with React for creating, editing, and organizing notes in real time. Features include live collaboration and instant updates using Socket.io.",
-    repo: "https://github.com/yourusername/chat-app"
+   {
+    title: "Weather App",
+    description: "A weather forecast app using OpenWeatherMap API and React.",
+    repo: "https://github.com/negidivyanshu/weather-app.git"
   }
 ];
 
@@ -37,7 +37,7 @@ const Projects = () => {
         {projects.map((project, idx) => (
           <div className="project-card" key={idx}>
             ...
-            <div className="project-card-header">
+            <div className="project-card-header mb-2">
               <i className="far fa-folder" aria-hidden="true" style={{ marginRight: "10px", color: "#01C38D" }}></i>
               <h2>{project.title}</h2>
               <a

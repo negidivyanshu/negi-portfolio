@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Typinganimation from './typing';
+import Typinganimation from './intro';
 import Navbar from './navbar';
 import About from './about';
 import Skills from './skills';

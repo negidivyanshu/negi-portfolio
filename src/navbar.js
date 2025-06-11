@@ -11,7 +11,7 @@ const Navbar = () => {
         <li><a href="#contact">hit me up</a></li>
       </ul>
       <div className="social-icons">
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/divyanshu-negi-0b3a84254" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-linkedin"></i>
         </a>
         <a href="https://github.com" target="_blank" rel="noopener noreferrer">
@@ -20,7 +20,7 @@ const Navbar = () => {
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
           <i className="fas fa-coffee"></i>
         </a>
-        <a href="mailto:negidivyanshu9656@gmail.com">
+         <a href="mailto:negidivyanshu9656@gmail.com?subject=Contact%20from%20Portfolio%20Website">
           <i className="fas fa-envelope"></i>
         </a>
       </div>

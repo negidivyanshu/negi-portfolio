@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './index.css';
 
-const Typinganimation = () => {
+const intro = () => {
   const text = "hello there";
   const [displayed, setDisplayed] = useState('');
   const [deleting, setDeleting] = useState(false);
@@ -58,4 +58,4 @@ const Typinganimation = () => {
   );
 };
 
-export default Typinganimation;
+export default intro;

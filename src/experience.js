@@ -78,7 +78,7 @@ const Experience = () => {
       </div>
     </div>
     <h4>Front-end Developer (Freelance)</h4>
-    <p>| Jun 2023 – Sep 2023 (Remote)</p>
+    <p>| Jun 2024 (Agra)</p>
 
     <ul className="ulpc" style={{ listStyleType: "none", paddingLeft: 0 }}>
       <li>

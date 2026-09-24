@@ -10,23 +10,23 @@ const projects = [
   {
     title: "Blog it",
     description: "Dynamic blogging platform with post creation, editing, and deletion. Data persistence via localStorage and clean, modular JavaScript structure.",
-    repo: "https://negidivyanshu.github.io/Blog-App/"
+    repo: "https://github.com/negidivyanshu/Blog-App"
   },
   {
     title: "Bharat Bhramann",
     description: "A travel agency website made for a client, with features such as payment gateway, blogs fetching etc.",
-    repo: "https://www.bharatbhramann.com/"
+    repo: "https://github.com/negidivyanshu/bharatbhramann.git"
   },
-  {
-    title: "Voting Platform",
-    description: "An online voting platform with secure authentication, real-time vote updates, and admin dashboard for managing polls and results.",
-    repo: "https://negidivyanshu.github.io/voting-platform"
-  },
-   {
-    title: "Weather App",
-    description: "A weather forecast app using OpenWeatherMap API and React.",
-    repo: "https://github.com/negidivyanshu/weather-app.git"
-  }
+  // {
+  //   title: "Voting Platform",
+  //   description: "An online voting platform with secure authentication, real-time vote updates, and admin dashboard for managing polls and results.",
+  //   repo: "https://negidivyanshu.github.io/voting-platform"
+  // },
+  //  {
+  //   title: "Weather App",
+  //   description: "A weather forecast app using OpenWeatherMap API and React.",
+  //   repo: "https://github.com/negidivyanshu/weather-app.git"
+  // }
 ];
 
 const Projects = () => {

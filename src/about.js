@@ -1,5 +1,5 @@
 import React from "react";
-import pic from './logo.jpg';
+import pic from '../logo.jpeg';
 import './index.css'
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
         <button className="green-btn">Download Resume</button>
       </div>
       <div>
-      <img src={pic} alt="Personal Logo" className="about-logo" />
+      <img src={pic} alt="Negid Ivyanshu portrait" className="about-logo" />
 </div>
     </section>
   );
